@@ -17,8 +17,10 @@
 @media(max-width:600px){.project-images{gap:8px}.project{padding-top:24px;padding-bottom:28px}.project-title{font-size:23px}.gallery-media{grid-template-columns:1fr;padding:18px;gap:20px}.dialog-header{padding:18px}.dialog-header h2{font-size:23px}.gallery-dialog{width:95vw;max-height:94dvh}.close-gallery{font-size:13px;padding:9px}.project-images.vertical{gap:16px}}
 @media(prefers-reduced-motion:reduce){.project::after{transition:none}}
 .brand{display:inline-flex;align-items:center;gap:10px}.leaf-icon{width:23px;height:25px;flex-shrink:0}.nav a{display:inline-flex;align-items:center;gap:10px}.smile-icon{width:22px;height:22px;flex-shrink:0}.more-link{display:flex;justify-content:flex-end;gap:7px;margin-top:16px;font-size:14px;align-items:center}.more-arrow{display:block;width:20px;height:20px;flex-shrink:0}@media(max-width:480px){.brand{gap:7px}.leaf-icon{width:19px;height:22px}.nav a{padding:10px 14px;gap:7px}.smile-icon{width:19px;height:19px}}
-/* Slight exposure lift for Emma thumbnails and every gallery photo. */
-img[src^="emma-"]{filter:brightness(1.12)}
+/* Exposure balanced by photo: a gentle lift overall, stronger for shaded and dusk portraits. */
+img[src^="emma-"]{filter:brightness(1.3)}
+img[src="emma-LRG_DSC01186.jpg"],img[src="emma-LRG_DSC01188.jpg"],img[src="emma-LRG_DSC01303.jpg"],img[src="emma-LRG_DSC01377.jpg"],img[src="emma-LRG_DSC01579.jpg"]{filter:brightness(1.5)}
+img[src="emma-LRG_DSC01310.jpg"],img[src="emma-LRG_DSC01412.jpg"],img[src="emma-LRG_DSC01417.jpg"],img[src="emma-LRG_DSC01482.jpg"],img[src="emma-LRG_DSC01511.jpg"],img[src="emma-LRG_DSC01524.jpg"],img[src="emma-LRG_DSC01574.jpg"],img[src="emma-LRG_DSC01585.jpg"]{filter:brightness(1.7)}
 </style>
 </head>
 <body id="top">
